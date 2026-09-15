@@ -1,0 +1,28 @@
+# Requirements
+fastapi>=0.111
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pydantic>=2.7
+numpy>=1.26
+opencv-python-headless>=4.9
+ultralytics>=8.3          # YOLOv11-seg
+python-dotenv==1.0.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+google-auth==2.27.0
+email-validator
+# pymongo==4.11.2 
+# motor==3.7.1
+# beanie==1.30.0
+# bcrypt==4.0.1
+sqlalchemy==2.0.27
+asyncmy==0.2.9
+pymysql==1.1.0
+# ... rest of your existing requirements
+# Optional -- gate behind config.SAM2_ENABLED
+# sam2 @ git+https://github.com/facebookresearch/sam2.git
+
+# Optional -- gate behind config.DEPTH_ENABLED (Depth Anything V2 via HF)
+# transformers>=4.42
+# torch>=2.3
+# pillow>=10.3

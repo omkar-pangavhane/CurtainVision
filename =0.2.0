@@ -1,0 +1,6 @@
+Collecting aiomysql
+  Downloading aiomysql-0.3.2-py3-none-any.whl (71 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 71.8/71.8 KB 2.7 MB/s eta 0:00:00
+Requirement already satisfied: PyMySQL>=1.0 in ./venv/lib/python3.10/site-packages (from aiomysql) (1.1.0)
+Installing collected packages: aiomysql
+Successfully installed aiomysql-0.3.2
